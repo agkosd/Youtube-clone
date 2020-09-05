@@ -1,0 +1,15 @@
+.video-item {
+  display: flex !important;
+  flex-flow: row ;
+  margin-bottom: 5px;
+  align-items: center !important;
+  justify-content: space-around !important;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px gray;
+}
+
+.video-item.item img {
+  max-width: 150px;
+    object-fit: cover;
+}
